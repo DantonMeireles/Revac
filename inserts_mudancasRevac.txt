@@ -1,0 +1,31 @@
+INSERT INTO TB_area VALUES
+('CIÊNCIAS BIOLÓGICAS E SAÚDE'),
+('CIÊNCIAS HUMANAS E SOCIAIS'),
+('CIÊNCIAS SOCIAIS APLICADAS'),
+('CIÊNCIAS AGRÁRIAS'),
+('LINGUÍSTICA'),
+('CIENICAS EXATAS E DA TERRA'),
+('ENGENHARIAS');
+
+INSERT INTO tb_subarea VALUES 
+('Fisioterapia','CIÊNCIAS BIOLÓGICAS E SAÚDE'),
+('Enfermagem','CIÊNCIAS BIOLÓGICAS E SAÚDE'),
+('Biomedicina','CIÊNCIAS BIOLÓGICAS E SAÚDE'),
+('Psicologia','CIÊNCIAS HUMANAS E SOCIAIS'),
+('Artes Visuais','CIÊNCIAS HUMANAS E SOCIAIS'),
+('Letras','CIÊNCIAS HUMANAS E SOCIAIS'),
+('Direito','CIÊNCIAS HUMANAS E SOCIAIS'),
+('Ciências Sociais','CIÊNCIAS HUMANAS E SOCIAIS'),
+('Comunicação Social','CIÊNCIAS SOCIAIS APLICADAS'),
+('Arquitetura e Urbanismo','CIÊNCIAS SOCIAIS APLICADAS'),
+('Administração','CIÊNCIAS SOCIAIS APLICADAS'),
+('Fitossanidade','CIÊNCIAS AGRÁRIAS'),
+('Extensão Rural','CIÊNCIAS AGRÁRIAS'),
+('Silvicultura','CIÊNCIAS AGRÁRIAS'),
+('Teoria e Análise Linguística','LINGUÍSTICA'),
+('Filosofia da Linguagem','LINGUÍSTICA'),
+('Psicolinguística','LINGUÍSTICA'),
+('Construção Civil','ENGENHARIAS'),
+('Pesquisa Mineral','ENGENHARIAS'),
+('Computação e Informática','CIÊNCIAS EXATAS E DA TERRA'),
+('Fenômenos de Transporte','ENGENHARIAS');
