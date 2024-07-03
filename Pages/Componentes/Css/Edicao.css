@@ -1,0 +1,161 @@
+:root {
+
+    --color: #DDD;
+    --color2: #fff;
+    --text-color: #707070;
+
+    /* Movimentação do site */
+    --tran-03: all 0.2s ease;
+    --tran-03: all 0.3s ease;
+    --tran-04: all 0.3s ease;
+    --tran-05: all 0.3s ease;
+}
+
+body.dark {
+    --primary: #404040;
+
+    --color: #242526;
+    --color2: #18191a;
+}
+
+.generalpage {
+
+    border-radius: 5px;
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 10%;
+    margin-left: 15%;
+
+}
+
+p,
+strong {
+    color: var(--text-color);
+    font-size: 20px;
+}
+
+.p1{
+    margin-top: 10%;
+    color: #fff;
+    font-size: 12px;
+}
+
+a {
+    text-decoration: none;
+    transition: all 0.2s linear 0s;
+    -moz-transition: all 0.2s linear 0s;
+    -webkit-transition: all 0.2s linear 0s;
+}
+
+#divmenu #active {
+    background: var(--primary, #ddd);
+    color: #000;
+    
+    
+}
+
+#divmenu {
+
+    position: relative;
+    width: 100%;
+    z-index: 140;
+}
+
+#divmenu .item {
+    background:  var(--primary, #ddd);
+    width: 135px;
+    float: left;
+    font-size: 10px;
+    text-align: center;
+    color: #fff;
+    height: 45px;
+    margin-left: 948%;
+    margin-top: 58%;
+    
+}
+
+#divmenu .item:hover {
+    background-color: #000;
+    transition: all 0.2.s linear 0s;
+    -moz-transition: all 0.2.s linear 0s;
+    -webkit-transition: all 0.2.s linear 0s;
+    
+}
+
+ul {
+    list-style: none;
+    position: relative;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+
+ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-color:  var(--primary, #ddd);
+    padding: 0;
+    margin-left: 948%;
+
+}
+
+ul ul li {
+    background-color:  #404040;
+    border: 1px solid #404040;
+    float: none;
+    padding: 15px 0 10px;
+    width: 133px;
+}
+
+
+li.item a {
+    
+    color: #f5eeee;
+    transition: all 0.3s linear 0s;
+    -moz-transition: all 0.3s linear 0s;
+    -webkit-transition: all 0.3s linear 0s;
+}
+
+ul li:hover>ul {
+    display: block
+}
+
+/**/
+
+.list .btn-name-link {
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    display: block;
+    cursor: pointer;
+    color:  #6441A5;
+    border: none !important;
+    box-shadow: none;
+    font-size: large;
+}
+
+.list1 .btn-name-link {
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    display: block;
+    cursor: pointer;
+    color:  #6441A5;
+    border: none !important;
+    box-shadow: none;
+    font-size: large;
+}
+
+.list{
+    background: var(--color);
+}
+
+.list1{
+    background: var(--color2);
+}
+

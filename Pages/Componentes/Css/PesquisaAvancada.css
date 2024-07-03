@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?fathmily=Poppins:wght@300;400;500;600;700&display=swap');
+:root {
+
+    --color-site: #6441A5;
+    --color-site2: #2a0845;
+    --sidebar-color: #FFF;
+    --primary-color: #695CFE;
+    --primary-color-light: #F6F5FF;
+    --toggle-color: #DDD;
+    --text-color: #707070;
+
+    /* Movimentação do site */
+    --tran-03: all 0.2s ease;
+    --tran-03: all 0.3s ease;
+    --tran-04: all 0.3s ease;
+    --tran-05: all 0.3s ease;
+}
+body.dark {
+    --body-color: #18191a;
+    --sidebar-color: #242526;
+    --primary-color-light: #3a3b3c;
+    --toggle-color: #fff;
+    --text-color1: #ccc;
+    --linha-color: #3a3a3f;
+    --color-siteB2: #6425A5;
+}
+
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+
+}
+
+#myInput, #myInputa, #myInputb, #myInputc{
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  width: 24.8%;
+  font-size: 16px;
+  padding: 12px 20px 12px 2px;
+  border: 2px solid var(--linha-color, #ddd);
+  margin-bottom: 12px;
+}
+
+
+#myTable {
+  border-collapse: collapse;
+  width: 100%;
+  border: 2px solid var(--linha-color, #ddd);
+  font-size: 18px;
+}
+
+#myTable th,
+#myTable td {
+  text-align: center;
+  padding: 12px;
+}
+
+#myTable tr {
+  border-bottom: 1px solid var(--linha-color, #ddd);
+  
+}
+
+#myTable tr.header,
+#myTable tr:hover {
+background:  #6441A5 ;
+}
+
+main {
+  display: grid;
+  place-content: justify;
+  min-height: 100vh;
+  line-height: 1.8;
+  color: var(--text-color1, #18191a);
+  padding: 40px;
+
+}
+
+aside {
+  font-weight: 300;
+  position: relative;
+  padding: 25px 40px;
+
+  padding-left: 80px;
+  margin: 10px 0;
+}
+
+th{
+  width:20%;
+}
+
+
+/*Resoluções*/
+
+/*Celular*/
+@media screen and (min-width: 320px) and (max-width: 480px) {}
+
+/*Tablet*/
+@media screen and (min-width: 481px) and (max-width: 768px) {}
+
+/*Telas Pequenas*/
+@media screen and (min-width: 769px) and (max-width: 1024px) {}
+
+/*Telas Grandes*/
+@media screen and (min-width: 1025px) and (max-width: 1200px) {}
+
+/*Telas muito Grandes*/
+@media screen and (min-width: 1201px) {}
